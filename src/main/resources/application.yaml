@@ -1,0 +1,8 @@
+
+security:
+  providers:
+    - abac:
+    - http-basic-auth:
+        users:
+          - login: "test"
+            password: "secret"
