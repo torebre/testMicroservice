@@ -1,0 +1,9 @@
+app.greeting: "Test greeting from file"
+
+security:
+  providers:
+    - abac:
+    - http-basic-auth:
+        users:
+          - login: "test"
+            password: "secret"

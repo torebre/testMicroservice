@@ -18,6 +18,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mainClass>com.kjipo.microservice.Main</mainClass>
     </properties>
 
     <dependencyManagement>
@@ -89,6 +90,7 @@
             <groupId>io.helidon.security</groupId>
             <artifactId>helidon-security-annotations</artifactId>
         </dependency>
+
         <dependency>
             <groupId>io.helidon.microprofile.config</groupId>
             <artifactId>helidon-microprofile-config</artifactId>

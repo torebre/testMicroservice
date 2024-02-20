@@ -1,0 +1,15 @@
+add-discovered-sources: true
+add-discovered-converters: false
+add-default-sources: true
+
+sources:
+#  - type: "environment-variables"
+#  - type: "system-properties"
+#  - type: "yaml"
+#    classpath: "application.yaml"
+  - type: "yaml"
+    path: "/home/student/workspace/testMicroservice/docker_mount/application.yaml"
+#    ordinal: 50
+#    optional: true
+#  - type: "yaml"
+#    classpath: "META-INF/database.yaml"

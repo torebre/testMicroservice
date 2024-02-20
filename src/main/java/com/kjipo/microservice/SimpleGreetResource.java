@@ -31,9 +31,10 @@ public class SimpleGreetResource {
     private static final String GETS_TIMER_DESCRIPTION = "Tracks all GET operations";
     private final String message;
 
-    @Inject
-    public SimpleGreetResource(@ConfigProperty(name = "app.greeting") String message) {
-        this.message = message;
+//    @Inject
+//    public SimpleGreetResource(@ConfigProperty(name = "app.greeting") String message) {
+    public SimpleGreetResource() {
+        this.message = "Test simple greet resource";
     }
 
     /**

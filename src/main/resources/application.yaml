@@ -1,8 +1,9 @@
+#app.greeting: "Test app greeting"
 
-security:
-  providers:
-    - abac:
-    - http-basic-auth:
-        users:
-          - login: "test"
-            password: "secret"
+#security:
+#  providers:
+#    - abac:
+#    - http-basic-auth:
+#        users:
+#          - login: "test"
+#            password: "secret"
